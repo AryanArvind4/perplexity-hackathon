@@ -1,58 +1,37 @@
-# 🎬 MovieMood Backend
+# 🎬 MovieMood — Personalized Travel Itinerary Generator
 
-A smart travel itinerary generator that creates real-world trip plans based on your favorite movies — powered by Perplexity's Sonar API.
-
----
-
-## 🚀 Features
-
-- 🧠 AI-generated travel plans based on any movie + location
-- 🔎 Uses Perplexity’s real-time Sonar API
-- 🌐 Clean Express.js backend
-- 📦 Modular structure (routes, controllers, services, utils)
-- 🛡️ Secured `.env` file for API keys
+**Built for the Perplexity Hackathon**  
+Turn your favorite movies into unforgettable journeys.
 
 ---
 
-## 📁 Folder Structure
+## ✨ Overview
 
-server/
-├── controllers/
-│ └── itineraryController.js
-├── routes/
-│ └── itinerary.js
-├── services/
-│ └── sonarService.js
-├── utils/
-│ └── promptBuilder.js
-├── index.js
-├── .env (excluded from Git)
-└── package.json
+MovieMood generates real-world travel itineraries based on the vibe of a movie you love. Just enter a film name, destination, budget, and trip duration — and we’ll return:
 
+- 🎯 Real places featured or inspired by the film
+- 🍽️ Local food & bars with pricing and references
+- 💰 Budget breakdown by activity
+- 🌐 Trusted source links via Perplexity Sonar API
 
+---
 
+## 💡 Example
 
-## ⚙️ Setup Instructions
+> Movie: *Dil Chahta Hai*  
+> Location: *Goa*  
+> Days: 3 | Nights: 2 | Budget: ₹30,000  
+> ✅ Output: A 3-day Goan adventure tracing iconic spots like Chapora Fort, Artjuna Cafe, Anjuna Flea Market, and more — complete with estimated costs and live reference links.
 
-### 1. Clone the Repo
+---
 
-```bash
-git clone https://github.com/your-username/movie-mood-backend.git
-cd movie-mood-backend/server
+## 🔧 Tech Stack
 
+- **Backend**: Node.js + Express
+- **AI Engine**: [Perplexity Sonar API](https://docs.perplexity.ai/)
+- **Prompt Engineering**: Custom dynamic prompt builder
+- **Postman**: For API testing
+- **Version Control**: Git + GitHub
 
-2. Install Dependencies
+---
 
-npm install 
-
-3. Add .env File
-Create a .env file in the server/ directory with:
-
-SONAR_API_KEY=your_sonar_api_key_here
-
-
-4. Run the Server
-node index.js
-# or if you use nodemon
-npx nodemon index.js
-Server runs on http://localhost:3000
