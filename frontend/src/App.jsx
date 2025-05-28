@@ -117,7 +117,7 @@ export default function App() {
                     <div className="w-full px-4 text-center">
                         <h2 className="text-3xl font-extrabold text-blue-800 mb-10 tracking-wide">Your Travel Itinerary</h2>
                         {itinerary ? (
-                            <div className="prose prose-lg prose-blue max-w-none mx-auto text-left bg-white rounded-lg p-6 shadow-lg">
+                            <div className="prose prose-lg prose-blue max-w-4xl w-full mx-auto text-center bg-white rounded-lg p-6 shadow-lg">
                                 <ReactMarkdown
                                     remarkPlugins={[remarkGfm]}
                                     components={{
