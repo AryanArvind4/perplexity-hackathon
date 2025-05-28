@@ -28,6 +28,7 @@ MovieMood generates real-world travel itineraries based on the vibe of a movie y
 ## 🔧 Tech Stack
 
 - **Backend**: Node.js + Express
+- **Frontend**: React + Vite + Tailwind CSS + Javascript
 - **AI Engine**: [Perplexity Sonar API](https://docs.perplexity.ai/)
 - **Prompt Engineering**: Custom dynamic prompt builder
 - **Postman**: For API testing
@@ -35,3 +36,8 @@ MovieMood generates real-world travel itineraries based on the vibe of a movie y
 
 ---
 
+
+💡 Known Issue (Reimagined as a Feature!)
+Before you generate your first itinerary, the itinerary section appears slightly indented, representing the "curtain" effect of an unfolding story. Once the itinerary is generated, the curtain lifts and your movie-inspired journey begins. We embraced this as a cinematic design choice!
+
+---
