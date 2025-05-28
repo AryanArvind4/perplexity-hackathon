@@ -37,7 +37,9 @@ MovieMood generates real-world travel itineraries based on the vibe of a movie y
 ---
 
 
-💡 Known Issue (Reimagined as a Feature!)
+## 💡 Known Issue (Reimagined as a Feature!)
+
+
 Before you generate your first itinerary, the itinerary section appears slightly indented, representing the "curtain" effect of an unfolding story. Once the itinerary is generated, the curtain lifts and your movie-inspired journey begins. We embraced this as a cinematic design choice!
 
 ---
