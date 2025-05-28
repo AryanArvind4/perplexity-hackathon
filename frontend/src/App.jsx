@@ -17,7 +17,7 @@ export default function App() {
         e.preventDefault();
         setLoading(true);
         try {
-            const response = await axios.post('https://perplexity-hackathon.onrender.com', {
+            const response = await axios.post('https://perplexity-hackathon.onrender.com/api/itinerary/generate', {
                 movie,
                 location,
                 budget,
